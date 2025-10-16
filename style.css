@@ -569,6 +569,172 @@ footer {
 footer a:hover {
   color: #088178;
 }
+/* Shop page styles */
+
+#page-header{
+  background-image: url(img/banner/b1.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+#page-header h2,
+#page-header p{
+  color: #fff;
+}
+
+#pagination{
+  text-align: center;
+}
+
+#pagination a{
+  text-decoration: none;
+  background: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#pagination a i{
+  font-size: 16px;
+  font-weight: 800;
+}
+
+/* Single product */
+#prodetails .single-pro-image{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails{
+  display: flex;
+  margin-top: 20px;
+}
+
+#prodetails .single-pro-detail{
+  width: 50%;
+  padding-top: 30px;
+}
+
+#prodetails .single-pro-detail h4{
+  padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-detail h2{
+  font-size: 26px;
+}
+
+#prodetails .single-pro-detail select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+#prodetails .single-pro-detail input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .single-pro-detail button{
+  background-color: #088178;
+  color: #fff;
+}
+
+#prodetails .single-pro-detail input:focus{
+  outline: none;
+}
+
+#prodetails .single-pro-detail span{
+  line-height: 25px;
+}
+
+@media (max-width: 477px) {
+  .section-p1{
+    padding: 20px;
+  }
+  #header{
+    padding: 10px 30px;
+  }
+  h1{
+    font-size: 38px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  #hero{
+    padding: 0 20px;
+    background-position: top 20% right 36%;
+  }
+  #feature{
+    justify-content: space-between;
+  }
+  #feature .fe-box{
+    width: 170px;
+    margin: 0 0 15px 0;
+  }
+  #product1 .pro{
+    width: 100%;
+  }
+  #banner{
+    height: 40vh;
+  }
+  #sm-banner .banner-box{
+    height: 40vh;
+  }
+  #sm-banner .banner-box2{
+    margin-top: 20px;
+  }
+  #banner3{
+    padding: 0 20px;
+  }
+  #banner3 .banner-box{
+    width: 100%;
+  }
+  #newsletter{
+    padding: 40px 20px;
+  }
+  #newsletter form{
+    width: 100%;
+  }
+  .copyright p{
+    text-align: left;
+    font-size: 12px;
+  }
+  .copyright{
+    margin: 0 0 30px 0;
+  }
+  #prodetails{
+    display: flex;
+    flex-direction: column;
+  }
+  #prodetails .single-pro-image{
+    width: 100%;
+    margin-right: 0;
+  }
+  #prodetails .single-pro-detail{
+    width: 100%;
+  }
+}
 
 @media (max-width: 799px) {
   .section-p1 {
@@ -676,99 +842,4 @@ footer a:hover {
   #newsletter .form {
     width: 70%;
   }
-}
-
-
-@media (max-width: 477px) {
-  .section-p1{
-    padding: 20px;
-  }
-  #header{
-    padding: 10px 30px;
-  }
-  h1{
-    font-size: 38px;
-  }
-  h2{
-    font-size: 32px;
-  }
-  #hero{
-    padding: 0 20px;
-    background-position: top 20% right 36%;
-  }
-  #feature{
-    justify-content: space-between;
-  }
-  #feature .fe-box{
-    width: 170px;
-    margin: 0 0 15px 0;
-  }
-  #product1 .pro{
-    width: 100%;
-  }
-  #banner{
-    height: 40vh;
-  }
-  #sm-banner .banner-box{
-    height: 40vh;
-  }
-  #sm-banner .banner-box2{
-    margin-top: 20px;
-  }
-  #banner3{
-    padding: 0 20px;
-  }
-  #banner3 .banner-box{
-    width: 100%;
-  }
-  #newsletter{
-    padding: 40px 20px;
-  }
-  #newsletter form{
-    width: 100%;
-  }
-  .copyright p{
-    text-align: left;
-    font-size: 12px;
-  }
-  .copyright{
-    margin: 0 0 30px 0;
-  }
-}
-
-/* Shop page styles */
-
-#page-header{
-  background-image: url(img/banner/b1.jpg);
-  width: 100%;
-  height: 40vh;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  padding: 40px;
-}
-
-#page-header h2,
-#page-header p{
-  color: #fff;
-}
-
-#pagination{
-  text-align: center;
-}
-
-#pagination a{
-  text-decoration: none;
-  background: #088178;
-  padding: 15px 20px;
-  border-radius: 4px;
-  color: #fff;
-  font-weight: 600;
-}
-
-#pagination a i{
-  font-size: 16px;
-  font-weight: 800;
 }

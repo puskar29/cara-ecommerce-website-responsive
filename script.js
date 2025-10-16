@@ -12,3 +12,22 @@ close.addEventListener('click', (e) => {
     nav.classList.remove('active');
 });
 
+//Slider
+var mainImg = document.querySelector("#mainImg");
+var smallImg = document.querySelectorAll(".small-img");
+
+smallImg[0].onclick = function(){
+    mainImg.src = smallImg[0].src;
+}
+
+smallImg[1].onclick = function(){
+    mainImg.src = smallImg[1].src;
+}
+
+smallImg[2].onclick = function(){
+    mainImg.src = smallImg[2].src;
+}
+
+smallImg[3].onclick = function(){
+    mainImg.src = smallImg[3].src;
+}
