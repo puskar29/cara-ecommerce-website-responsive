@@ -7,6 +7,8 @@ bar.addEventListener('click', () => {
 });
 
 close.addEventListener('click', (e) => {
-    e.preventDefault(); // Prevent page refresh
+    // prevent default not needed for button, but keep e just in case
+    if (e && e.preventDefault) e.preventDefault();
     nav.classList.remove('active');
 });
+
